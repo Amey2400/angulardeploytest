@@ -1,0 +1,9 @@
+runtime: nodejs10
+handlers:
+- url: /
+  static_files: dist/<YOUR_APP_NAME>/index.html
+  upload: dist/<YOUR_APP_NAME>/index.html
+  secure: always
+- url: /
+  static_dir: dist/<YOUR_APP_NAME>/
+  secure: always
