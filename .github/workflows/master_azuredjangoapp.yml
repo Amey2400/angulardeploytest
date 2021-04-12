@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'azuredjangoapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3e94f912292842d38afb85ce81139831 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fa6f9a3e1db9436580f36b9207377b3b }}
         package: '.\app.zip'
